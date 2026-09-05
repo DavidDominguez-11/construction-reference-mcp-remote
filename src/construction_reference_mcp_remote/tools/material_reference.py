@@ -16,6 +16,15 @@ from construction_reference_mcp_remote.config import DEFAULT_LOCATION
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
+DISCLAIMER: str = (
+    "Reference values only. Actual prices may vary by supplier, quality, "
+    "location, date, quantity, and delivery conditions."
+)
+
+# ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
 

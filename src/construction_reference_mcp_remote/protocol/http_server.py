@@ -10,7 +10,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Response
 from fastapi.responses import JSONResponse
 
 from construction_reference_mcp_remote.protocol.jsonrpc import (
@@ -108,7 +108,7 @@ async def mcp_endpoint(request: Request) -> JSONResponse:
 
     # Notifications return None — respond with 204 No Content.
     if response is None:
-        return JSONResponse(status_code=204, content=None)
+        return Response(status_code=204)
 
     return JSONResponse(
         status_code=200,
