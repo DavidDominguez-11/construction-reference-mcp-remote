@@ -1,0 +1,169 @@
+{
+  "materials": [
+    {
+      "id": "concrete_block_10cm",
+      "canonical_name": "concrete block 10 cm",
+      "aliases": ["block 10", "bloque 10", "concrete block 10"],
+      "category": "masonry",
+      "unit": "unit",
+      "reference_price_min": 6.0,
+      "reference_price_max": 9.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Standard 10 cm concrete block for non-structural or light-structural walls.",
+        "Verify compressive strength and supplier delivery conditions."
+      ]
+    },
+    {
+      "id": "concrete_block_15cm",
+      "canonical_name": "concrete block 15 cm",
+      "aliases": ["block 15", "bloque 15", "concrete block 15"],
+      "category": "masonry",
+      "unit": "unit",
+      "reference_price_min": 8.0,
+      "reference_price_max": 11.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Standard 15 cm concrete block for structural walls.",
+        "Verify strength, dimensions, and supplier delivery conditions."
+      ]
+    },
+    {
+      "id": "cement",
+      "canonical_name": "cement",
+      "aliases": ["portland cement", "cemento", "cement bag", "sack of cement"],
+      "category": "binders",
+      "unit": "42.5 kg bag",
+      "reference_price_min": 78.0,
+      "reference_price_max": 95.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Type I / GU Portland cement (42.5 kg bag).",
+        "Price varies by brand and purchase volume."
+      ]
+    },
+    {
+      "id": "sand",
+      "canonical_name": "sand",
+      "aliases": ["construction sand", "arena", "river sand"],
+      "category": "aggregates",
+      "unit": "cubic meter",
+      "reference_price_min": 120.0,
+      "reference_price_max": 200.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Washed construction sand suitable for mortar and concrete.",
+        "Delivery cost may vary significantly by distance."
+      ]
+    },
+    {
+      "id": "gravel",
+      "canonical_name": "gravel",
+      "aliases": ["crushed stone", "piedrín", "piedrin", "aggregate"],
+      "category": "aggregates",
+      "unit": "cubic meter",
+      "reference_price_min": 150.0,
+      "reference_price_max": 250.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Crushed stone aggregate for concrete mixes.",
+        "Verify gradation for intended structural use."
+      ]
+    },
+    {
+      "id": "reinforcing_steel_bar",
+      "canonical_name": "reinforcing steel bar",
+      "aliases": ["rebar", "steel bar", "varilla", "hierro"],
+      "category": "steel",
+      "unit": "6 m bar (3/8 in)",
+      "reference_price_min": 28.0,
+      "reference_price_max": 42.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Grade 40 or 60 reinforcing bar, 3/8 in (No. 3) diameter, 6 m length.",
+        "Price varies by diameter and steel market conditions."
+      ]
+    },
+    {
+      "id": "electrical_conduit",
+      "canonical_name": "electrical conduit",
+      "aliases": ["conduit", "tubo eléctrico", "electrical tube", "PVC conduit"],
+      "category": "electrical",
+      "unit": "3 m tube (1/2 in)",
+      "reference_price_min": 6.0,
+      "reference_price_max": 12.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "PVC electrical conduit, 1/2 in diameter, 3 m length.",
+        "Verify compliance with local electrical code."
+      ]
+    },
+    {
+      "id": "electrical_cable",
+      "canonical_name": "electrical cable",
+      "aliases": ["cable", "wire", "cable eléctrico", "THHN cable"],
+      "category": "electrical",
+      "unit": "meter (12 AWG)",
+      "reference_price_min": 4.0,
+      "reference_price_max": 8.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "THHN copper cable, 12 AWG, sold by the meter.",
+        "Price depends on gauge and copper market conditions."
+      ]
+    },
+    {
+      "id": "pvc_pipe",
+      "canonical_name": "PVC pipe",
+      "aliases": ["PVC tube", "tubo PVC", "drainage pipe", "water pipe"],
+      "category": "plumbing",
+      "unit": "6 m tube (1/2 in)",
+      "reference_price_min": 18.0,
+      "reference_price_max": 35.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "PVC pipe for potable water or drainage, 1/2 in, 6 m.",
+        "Price varies significantly by diameter and pressure class."
+      ]
+    },
+    {
+      "id": "ceramic_floor_tile",
+      "canonical_name": "ceramic floor tile",
+      "aliases": ["floor tile", "ceramic tile", "piso cerámico", "cerámica"],
+      "category": "finishes",
+      "unit": "square meter",
+      "reference_price_min": 55.0,
+      "reference_price_max": 130.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Standard ceramic floor tile, price per square meter.",
+        "Quality, size, and design affect price substantially."
+      ]
+    },
+    {
+      "id": "interior_paint",
+      "canonical_name": "interior paint",
+      "aliases": ["paint", "wall paint", "pintura", "latex paint"],
+      "category": "finishes",
+      "unit": "gallon",
+      "reference_price_min": 90.0,
+      "reference_price_max": 180.0,
+      "currency": "GTQ",
+      "reference_updated_at": "2026-09-01",
+      "observations": [
+        "Interior latex/acrylic paint, price per gallon.",
+        "Premium brands and specialty finishes cost more."
+      ]
+    }
+  ]
+}
